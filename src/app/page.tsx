@@ -3,6 +3,10 @@ import { HorizontalGallery } from "@/components/sections/HorizontalGallery";
 import { Services } from "@/components/sections/Services";
 import { Contact } from "@/components/sections/Contact";
 import { Footer } from "@/components/layout/Footer";
+import { FAQSection } from "@/components/sections/FAQSection";
+import { CTASection } from "@/components/sections/CTASection";
+
+
 
 export default function Home() {
   return (
@@ -11,6 +15,8 @@ export default function Home() {
       <HorizontalGallery />
       <Services />
       <Contact />
+      <FAQSection />
+      <CTASection />
       <Footer />
     </main>
   );
